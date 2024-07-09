@@ -19,9 +19,9 @@ function Header() {
           ></path>
         </svg>
       </span>
-      <span class="font-bold">DevUI</span>
+      <span class="font-bold">DataCode</span>
     </div>
-    <div class="hidden grow items-start lg:flex">
+    <div class="hidden grow items-start lg:flex ">
       <ul class="ml-12 inline-flex space-x-8">
         <li>
           <a
@@ -52,6 +52,7 @@ function Header() {
     <div class="hidden lg:block">
       <button
         type="button"
+        hidden
         class="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
       >
         Button text
